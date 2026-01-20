@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amogha Varshini | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fbeaff, #e6f3ff);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 60px 40px;
+      text-align: center;
+      background: linear-gradient(135deg, #d9c7ff, #c7e6ff);
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #2d2d5f;
+    }
+
+    header p {
+      margin: 10px 0 20px;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #2d2d5f;
+      font-weight: 600;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 35px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #5b4fcf;
+      font-size: 1.8rem;
+    }
+
+    ul { padding-left: 20px; }
+
+    li { margin-bottom: 8px; }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #efe9ff;
+      color: #5b4fcf;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin: 6px 6px 0 0;
+    }
+
+    .placeholder {
+      color: #888;
+      font-style: italic;
+    }
+
+    .contact a {
+      display: block;
+      margin-bottom: 10px;
+      color: #5b4fcf;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #2d2d5f;
+      color: #eee;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #bfa8ff, #9fd8ff);
+      color: #2d2d5f;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Amogha Varshini</h1>
+    <p>Aspiring Cyber Security Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Amogha Varshini, a 3rd-year B.Tech student specializing in Computer Science (Cyber Security).
+        I’m deeply interested in cyber crimes, research, web information systems, data mining, and data science.
+        I love exploring how technology can be used to build secure, meaningful, and real-world solutions.
+      </p>
+      <p>
+        My academic journey, including overcoming semester challenges, reflects my perseverance, adaptability,
+        and dedication to continuous growth. My big dream is to work at Google and contribute to impactful
+        technological innovations.
+      </p>
+      <a class="btn" href="#contact">Let’s Connect ✨</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h4>Programming</h4>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+        </div>
+        <div>
+          <h4>Web Development</h4>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Frontend Development</span>
+          <span class="tag">Website Structure & Navigation</span>
+        </div>
+        <div>
+          <h4>Design</h4>
+          <span class="tag">UI/UX Basics</span>
+          <span class="tag">Canva</span>
+        </div>
+        <div>
+          <h4>Tools & Platforms</h4>
+          <span class="tag">VS Code</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Linux OS / Terminal</span>
+          <span class="tag">Browser Dev Tools</span>
+          <span class="tag">MS Word</span>
+          <span class="tag">Google Docs</span>
+        </div>
+        <div>
+          <h4>Other</h4>
+          <span class="tag">Project Work</span>
+          <span class="tag">Problem Solving</span>
+          <span class="tag">Continuous Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <p class="placeholder">
+        🚧 Projects section coming soon! I’m currently working on two exciting projects
+        and will be adding them here very soon.
+      </p>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="card">
+      <h2>Achievements & Learning</h2>
+      <p>
+        I have strengthened my technical and professional skills through academic projects,
+        certifications, and continuous self-learning. I have completed multiple courses from
+        platforms such as Infosys, Udemy, Coursera, Cisco, and Google.
+      </p>
+      <p>
+        I have worked on projects related to daily task automation, e-commerce platforms,
+        security-focused websites, and a personal portfolio website, gaining hands-on
+        experience in web development.
+      </p>
+      <p>
+        I am currently reflecting my growing interest in cyber security and research-oriented
+        learning.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card contact">
+      <h2>Contact</h2>
+      <a href="mailto:amoghavarshini2005@gmail.com">📧 amoghavarshini2005@gmail.com</a>
+      <a href="https://www.linkedin.com/in/amogha-varshini-0039b33a0" target="_blank">🔗 LinkedIn Profile</a>
+      <a href="#">🐙 GitHub (Coming Soon)</a>
+      <a href="https://www.instagram.com/amogha_varshini" target="_blank">📸 Instagram: @amogha_varshini</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Amogha Varshini | Dreaming Big ✨ Building Bigger 🚀</p>
+  </footer>
+
+</body>
+</html>
+
